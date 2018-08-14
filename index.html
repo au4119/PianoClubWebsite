@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Piano Club</title>
+    <script src="AJAXFunctions.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class = "jumbotron">
+        <center><h1>Piano Club</h1></center>
+    </div>
+
+    <div class = "box1">
+        <center><h1><b>Welcome to the Piano Club Website!</b></h1></center>
+        <center><h2>The Piano Club offers a space for pianists and musicians of all skill levels.</h2></center>
+        <center><h3>We hold biweekly practice sessions, lessons, and monthly concerts.</h3></center>
+    </div>
+
+    <div class = "box2">
+        <center><h1><b>Past Piano Club Concerts</b></h1></center>
+        <div>
+            <center><h1>November 9, 2015</h1></center>
+            <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/12234890_10206791910668974_8646223678143542964_n.jpg?oh=2555a63d001a303e2a86d0dec65ab17f&oe=57E85B31" style="width: 100%">
+
+        </div>
+        <br/>
+
+        <div>
+            <center><h1>Darryl Rahn Performance February 5, 2016</h1></center>
+            <img src="https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/10256160_1210473798981031_8379513220503094404_o.jpg" style="width: 100%">
+        </div>
+        <br/>
+
+        <div>
+            <center><h1>March 25, 2016</h1></center>
+            <img src="https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/12885920_10207715660162134_7736418972836186309_o.jpg" style="width: 100%">
+        </div>
+
+    </div>
+
+    <br/>
+
+    <div class = "well">
+        <div id = "allComments"></div>
+    </div>
+
+    <div class = "well">
+        <form>
+            <center><h1>Any comments or suggestions?</h1></center><br/>
+            Name: <input class = "form-control" id = "name"><br/>
+            Comment: <input class = "form-control" id = "comment"><br/>
+            <h3><a href="#" onclick="addComment();return false;">
+                <span class="label label-primary">Add Comment</span>
+            </a></h3>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>
